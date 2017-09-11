@@ -28,7 +28,8 @@ while True:
                          '{:.1f} deg C'.format(r['t']),
                          '{:.2f} kPa'.format(r['p']),
                          '            @meshlab'])
-       time.sleep(1)
+        time.sleep(1)
+        
     except KeyboardInterrupt:
         break
     except:
